@@ -8,8 +8,8 @@ import axios from 'axios'
 
 class App extends Component {
 state = {
-  ApiKey : '3443ebb7ea3c44b48fa252753227fa9d',
-  secretKey : '2d69cce4369c0de9c05248e835e111c27f5739e8',
+  ApiKey : '',
+  secretKey : '',
   URL: 'https://rest.viglink.com/api/product/search',
   proxy: 'https://cors-anywhere.herokuapp.com/',
   search: '',
