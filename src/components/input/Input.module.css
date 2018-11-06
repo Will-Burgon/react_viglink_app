@@ -1,0 +1,9 @@
+.input_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.input_wrapper input {
+    margin: 3rem;
+    padding: 2rem;
+}
