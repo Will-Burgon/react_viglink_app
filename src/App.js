@@ -17,19 +17,21 @@ state = {
 }
 
 setKey = (event) =>{
-  this.setState({
+  if(event.key === 'Enter'){this.setState({
     ApiKey: event.target.value
   })
   console.log(this.state.ApiKey)
 }
-
-setSecret = (event) => {
-  this.setState({
-    secretKey: event.target.value
-  })
-  console.log(this.state.secretKey)
+  
 }
 
+setSecret = (event) => {
+  if(event.key === 'Enter'){ this.setState({
+    secretKey: event.target.value
+  })
+  console.log(this.state.secretKey)}
+ 
+}
  searchProducts = (event) => {
    
    if(event.key === 'Enter') {
